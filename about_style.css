@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Gurajada&family=Playfair+Display+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Playfair+Display+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&family=Playfair+Display+SC&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+/* background: url(img/bg.jpg) no-repeat center center fixed;
+    background-size: cover; */
+
+@keyframes fade {
+    0%{ opacity : 0;
+    }
+    100%{ opacity : 1;
+    }
+}
+
+body{
+    
+    background: url(img/newpng2.png) no-repeat center center fixed;
+    background-size: cover;
+    background-color: rgb(0, 0, 0);
+    animation: fade 3s ease 1 forwards;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    height: 8vh;
+}
+
+header ul li{
+    list-style: none;
+    display: inline;
+}
+header ul li a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Playfair Display SC', serif;
+    font-size: 1.2vw;
+}
+header ul li a:hover{
+    text-decoration: none;
+    color: rgb(138, 67, 67);
+    font-family: 'Playfair Display SC', serif;
+    font-size: 1.2vw;
+}
+
+.left ul {
+    margin: 3vw;
+    margin-top: 2vh;
+}
+.left ul li{
+    margin: 3vw;
+    margin-top: 2vh;
+}
+
+.right ul{
+    margin-right: 5vw;
+    margin-top: 2vh;
+}
+
+.content{
+    height: 92vh;
+    
+    
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+
+.container{
+    color: white;
+    padding-left: 6vw;
+    padding-bottom: 6vh;
+    width: 60vw;
+}
+
+.container h1{
+    margin-top: 13vh;
+    font-size: 2vw;
+    font-family: 'Playfair Display SC', serif;
+}
+
+.about p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1vw;
+    display: inline-block;
+}
+
+.social{
+    padding-top: 1vh;
+}
+.social p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.5vw;
+    color: whitesmoke;
+    padding-right: 1vw;
+}
+
+.fa {
+    padding: 1vw;
+    font-size: 1.953125vw;
+    width: 1.3vw;
+    text-align: center;
+    text-decoration: none;
+    margin: 0.6925207756232687vh 0.13020833333333334vw;
+    border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+.fa-linkedin {
+    background: #007bb5;
+    color: white;
+}
+  
+  .fa-youtube {
+    background: #bb0000;
+    color: white;
+}
+  
+  .fa-instagram {
+    background: #125688;
+    color: white;
+}
+
+

@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css2?family=Gurajada&family=Playfair+Display+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Playfair+Display+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&family=Playfair+Display+SC&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+/* background: url(img/bg.jpg) no-repeat center center fixed;
+    background-size: cover; */
+
+    @keyframes fade {
+        0%{ opacity : 0;
+        }
+        100%{ opacity : 1;
+        }
+    }
+
+body{
+    
+    background: url(img/newpng2.png) no-repeat center center fixed;
+    background-size: cover;
+    background-color: rgb(0, 0, 0);
+    animation: fade 3s ease 1 forwards;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    height: 8vh;
+    background-color: black;
+}
+
+header ul li{
+    list-style: none;
+    display: inline;
+}
+header ul li a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Playfair Display SC', serif;
+    font-size: 1.2vw;
+}
+header ul li a:hover{
+    text-decoration: none;
+    color: rgb(138, 67, 67);
+    font-family: 'Playfair Display SC', serif;
+    font-size: 1.2vw;
+}
+
+.left ul {
+    margin: 3vw;
+    margin-top: 2vh;
+}
+.left ul li{
+    margin: 3vw;
+    margin-top: 2vh;
+}
+
+.right ul{
+    margin-right: 5vw;
+    margin-top: 2vh;
+}
+
+.content{
+    height: 92vh;
+    
+    
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+
+.container{
+    color: white;
+    padding-left: 6vw;
+    padding-bottom: 6vh;
+    width: 50vw;
+}
+
+.container h1{
+    margin-top: 13vh;
+    margin-bottom: 2vh;
+    font-size: 2vw;
+    font-family: 'Playfair Display SC', serif;
+    font-size: 2vw;
+}
+.container h3{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.3vw;
+}
+
+.box1{
+    /* width: vw; */
+    height: 50vh;
+    background-color: rgba(94, 167, 26, 0.562);
+    display: flex;
+    align-items: center;
+}
+
+.box1 img{
+    height: 30vh;
+    width: 31vw;
+    display: inline-block;
+    padding-left: 10vw;
+}
+
+.grocery-content{
+    width: 50vw;
+    height: 50vh;
+    /* border: 2px solid red; */
+    /* padding-top: 5vw; */
+}
+
+.grocery-content h2{
+    font-size: 2vw;
+    font-family: 'Playfair Display SC', serif;
+    color: whitesmoke;
+    position: absolute;
+    left: 5.5vw;
+    padding-top: 2vw;
+}
+.grocery-content h5{
+    font-size: 1vw;
+    font-family: 'Open Sans', sans-serif;
+    color: whitesmoke;
+    position: relative;
+    left: 5.5vw;
+    padding-top: 6vw;
+}
+
+.box1 a{
+    text-decoration: none;
+    font-size: 1vw;
+    font-family: 'Playfair Display SC', serif;
+    color: whitesmoke;
+    position: relative;
+    left: 5.5vw;
+    /* padding-top: 6vw; */
+}
+
+.box1 a:hover{
+    text-decoration: none;
+    font-size: 1vw;
+    font-family: 'Playfair Display SC', serif;
+    color: rgb(28, 29, 134);
+    position: relative;
+    left: 5.5vw;
+    /* padding-top: 6vw; */
+}
+
+
+.box2{
+    /* width: vw; */
+    height: 50vh;
+    background-color: rgba(167, 26, 26, 0.562);
+    display: flex;
+    align-items: center;
+}
+
+.box2 img{
+    height: 30vh;
+    width: 25vw;
+    display: inline-block;
+    padding-left: 13vw;
+}
+
+.youtube-content{
+    width: 50vw;
+    height: 50vh;
+    /* border: 2px solid red; */
+    /* padding-top: 5vw; */
+}
+
+.youtube-content h2{
+    font-size: 2vw;
+    font-family: 'Playfair Display SC', serif;
+    color: whitesmoke;
+    position: absolute;
+    left: 5.5vw;
+    padding-top: 2vw;
+}
+.youtube-content h5{
+    font-size: 1vw;
+    font-family: 'Open Sans', sans-serif;
+    color: whitesmoke;
+    position: relative;
+    left: 5.5vw;
+    padding-top: 6vw;
+}
+
+.box2 a{
+    text-decoration: none;
+    font-size: 1vw;
+    font-family: 'Playfair Display SC', serif;
+    color: whitesmoke;
+    position: relative;
+    left: 5.5vw;
+    /* padding-top: 6vw; */
+}
+
+.box2 a:hover{
+    text-decoration: none;
+    font-size: 1vw;
+    font-family: 'Playfair Display SC', serif;
+    color: rgb(28, 29, 134);
+    position: relative;
+    left: 5.5vw;
+    /* padding-top: 6vw; */
+}
+
+.box2 iframe{
+    height: 30vh;
+    width: 30vw;
+    display: inline-block;
+    padding-left: 11vw;
+}
+
+.box3{
+    height: 10vh;
+    background-color: rgba(153, 187, 59, 0.562);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box3 h2{
+    font-family: 'Playfair Display SC', serif;
+    font-size: 1.3vw;
+    color: black;
+}

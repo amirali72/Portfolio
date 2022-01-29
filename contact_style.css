@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Gurajada&family=Playfair+Display+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Playfair+Display+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&family=Playfair+Display+SC&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+/* background: url(img/bg.jpg) no-repeat center center fixed;
+    background-size: cover; */
+
+@keyframes fade {
+    0%{ opacity : 0;
+    }
+    100%{ opacity : 1;
+    }
+}
+body{
+    
+    background: url(img/newpng2.png) no-repeat center center fixed;
+    background-size: cover;
+    background-color: rgb(0, 0, 0);
+    animation: fade 3s ease 1 forwards;
+    /* animation: fade ease 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards; */
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    height: 8vh;
+}
+
+header ul li{
+    list-style: none;
+    display: inline;
+}
+header ul li a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Playfair Display SC', serif;
+    font-size: 1.2vw;
+}
+header ul li a:hover{
+    text-decoration: none;
+    color: rgb(138, 67, 67);
+    font-family: 'Playfair Display SC', serif;
+    font-size: 1.2vw;
+}
+
+.left ul {
+    margin: 3vw;
+    margin-top: 2vh;
+}
+.left ul li{
+    margin: 3vw;
+    margin-top: 2vh;
+}
+
+.right ul{
+    margin-right: 5vw;
+    margin-top: 2vh;
+}
+
+.content{
+    height: 92vh;
+    /* display: flex;
+    align-items: center;
+    justify-content: left; */
+}
+
+.container{
+    color: white;
+    padding-left: 6vw;
+    padding-bottom: 0vh;
+    padding-top: 8vh;
+}
+.heading{
+    padding-bottom: 3vh;
+}
+.heading h2{
+    padding-bottom: 2vh;
+    font-family: 'Playfair Display SC', serif;
+    font-size: 2vw;
+}
+.heading h1{
+    padding-bottom: 3vh;
+    font-family: 'Playfair Display SC', serif;
+    font-size: 2vw;
+}
+
+.para span{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.line2{
+    font-size: 1vw;
+
+}
+
+.line2 a{
+    text-decoration: none;
+    color: rgb(138, 67, 67);
+}
+
+
+.name{
+    color: white;
+    padding-left: 6vw;
+    display: block;
+}
+
+.name p{
+    padding-bottom: 1vh;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1vw;
+}
+
+.name input{
+    height: 6vh;
+    width: 35vw;
+    background-color: rgba(54, 53, 53, 0.493);
+    /* border: 1px solid white; */
+    border-radius: 10px;
+    border: none;
+    color: white;
+    padding-left: 1vw;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.email{
+    color: white;
+    padding-left: 6vw;
+    display: block;
+    padding-top: 3vh;
+}
+
+.email p{
+    padding-bottom: 1vh;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1vw;
+}
+
+.email input{
+    height: 6vh;
+    width: 35vw;
+    background-color: rgba(54, 53, 53, 0.493);
+    /* border: 1px solid white; */
+    border-radius: 10px;
+    border: none;
+    color: white;
+    padding-left: 1vw;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.text{
+    color: white;
+    padding-left: 6vw;
+    display: block;
+    padding-top: 3vh;
+}
+
+.text p{
+    padding-bottom: 1vh;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1vw;
+}
+
+.text textarea{
+    height: 20vh;
+    width: 35vw;
+    background-color: rgba(54, 53, 53, 0.493);
+    /* border: 1px solid white; */
+    border-radius: 10px;
+    border: none;
+    color: white;
+    padding-left: 1vw;
+    padding-top: 1vh;
+    font-family: 'Open Sans', sans-serif;
+}
+
+button.btn {
+    position: relative;
+    left: 6vw;
+    top: 1vh;
+    width: 6vw;
+    height: 5vh;
+    font-size: 1vw;
+    font-family: 'Open Sans';
+    font-weight: bold;
+    color: rgb(138, 67, 67);
+    border: none;
+    border-radius: 10px;
+    background-color: rgba(54, 53, 53, 0.493);
+}
+
+
+

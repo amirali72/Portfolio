@@ -1,0 +1,196 @@
+
+/* Media Query for Tablets */
+
+@media screen and (max-width:850px){
+    @keyframes fade {
+        0%{ opacity : 0;
+        }
+        100%{ opacity : 1;
+        }
+    }
+
+    body{
+        background: url(img/tabres.png) no-repeat center center fixed;
+        background-size: cover;
+        background-color: rgb(0, 0, 0);
+        animation: fade 2s ease 1 forwards;
+    }
+
+    header ul li a {
+        text-decoration: none;
+        color: white;
+        font-family: 'Playfair Display SC', serif;
+        font-size: 15px;
+    }
+
+    header ul li a:hover {
+        text-decoration: none;
+        color: white;
+        font-family: 'Playfair Display SC', serif;
+        font-size: 15px;
+    }
+
+    .container {
+        color: white;
+        padding-left: 6vw;
+        padding-bottom: 0vh;
+        width: 60vw;
+    }
+
+    .container h1 {
+        margin-top: 7vh;
+        font-size: 28px;
+        font-family: 'Playfair Display SC', serif;
+    }
+
+    .about p {
+        font-family: 'Open Sans', sans-serif;
+        font-size: 12px;
+        display: inline-block;
+    }
+
+    .social p {
+        font-family: 'Open Sans', sans-serif;
+        font-size: 14px;
+        color: whitesmoke;
+        padding-right: 1vw;
+        /* display: block; */
+    }
+
+    .fa-facebook {
+        background: none;
+        color: #3B5998;
+        margin-right: 5px;
+    }
+
+    .fa-instagram {
+        background: none;
+        color: #ff00e3;
+        margin-right: 5px;
+    }
+
+    .fa-twitter {
+        background: none;
+        color: #55ACEE;
+        margin-right: 7px;
+    }
+
+    .fa-linkedin {
+        background: none;
+        color: #007bb5;
+        margin-right: 8px;
+    }
+
+    .fa-youtube {
+        background: none;
+        color: #b00;
+        margin-right: 5px;
+    }
+
+
+}
+
+
+/* Media Query for Mobile */
+
+@media screen and (max-width:500px) {
+    @keyframes fade {
+        0%{ opacity : 0;
+        }
+        100%{ opacity : 1;
+        }
+    }
+
+    body{
+        background: url(img/mobres.png) no-repeat center center fixed;
+        background-size: cover;
+        background-color: rgb(0, 0, 0);
+        animation: fade 2s ease 1 forwards;
+    }
+    
+    header {
+        display: flex;
+        justify-content: center;
+        height: 8vh;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    header ul li a {
+        text-decoration: none;
+        color: white;
+        font-family: 'Playfair Display SC', serif;
+        font-size: 12px;
+        position: relative;
+        top: 10px;
+    }
+
+    header ul li a:hover {
+        text-decoration: none;
+        color: white;
+        font-family: 'Playfair Display SC', serif;
+        font-size: 12px;
+        position: relative;
+        top: 10px;
+    }
+
+    .container {
+        color: white;
+        padding-left: 18vw;
+        padding-bottom: 0vh;
+        width: 60vw;
+        position: relative;
+        bottom: 4vh;
+    }
+
+    .container h1 {
+        margin-top: 13vh;
+        font-size: 16px;
+        font-family: 'Playfair Display SC', serif;
+    }
+
+    .about p {
+        font-family: 'Open Sans', sans-serif;
+        font-size: 8px;
+        display: inline-block;
+    }
+
+    .social p {
+        font-family: 'Open Sans', sans-serif;
+        font-size: 10px;
+        color: whitesmoke;
+        padding-right: 1vw;
+        display: block;
+    }
+
+    .fa-facebook {
+        background: none;
+        color: #3B5998;
+        margin-right: 5px;
+    }
+
+    .fa-instagram {
+        background: none;
+        color: #ff00e3;
+        margin-right: 5px;
+    }
+
+    .fa-twitter {
+        background: none;
+        color: #55ACEE;
+        margin-right: 7px;
+    }
+
+    .fa-linkedin {
+        background: none;
+        color: #007bb5;
+        margin-right: 8px;
+    }
+
+    .fa-youtube {
+        background: none;
+        color: #b00;
+        margin-right: 5px;
+    }
+}
+

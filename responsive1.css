@@ -1,0 +1,173 @@
+
+
+/* Media Query for Tablets */
+
+@media screen and (max-width:850px){
+    @keyframes fade {
+        0%{ opacity : 0;
+        }
+        100%{ opacity : 1;
+        }
+    }
+
+    body{
+        background: url(img/tabres.png) no-repeat center center fixed;
+        background-size: cover;
+        background-color: rgb(0, 0, 0);
+        animation: fade 2s ease 1 forwards;
+    }
+
+    header ul li a {
+        text-decoration: none;
+        color: white;
+        font-family: 'Playfair Display SC', serif;
+        font-size: 14px;
+    }
+    header ul li a:hover{
+        text-decoration: none;
+        color: white;
+        font-family: 'Playfair Display SC', serif;
+        font-size: 14px;
+    }
+
+    .container {
+        color: white;
+        padding-left: 6vw;
+        padding-bottom: 15vh;
+        padding-right: 30vw;
+    }
+
+    .heading h2 {
+        padding-bottom: 2vh;
+        font-family: 'Playfair Display SC', serif;
+        font-size: 30px;
+    }
+
+    .heading h1 {
+        padding-bottom: 3vh;
+        font-family: 'Playfair Display SC', serif;
+        font-size: 20px;
+    }
+
+    .line3 {
+        font-size: 10px;
+    }
+    .line2 {
+        font-size: 10px;
+    }
+    .line1 {
+        font-size: 10px;
+    }
+
+    .link a {
+        text-decoration: none;
+        font-family: 'Playfair Display SC', serif;
+        color: whitesmoke;
+        font-size: 15px;
+    }
+    .link a:hover {
+        text-decoration: none;
+        font-family: 'Playfair Display SC', serif;
+        color: whitesmoke;
+        font-size: 15px;
+    }
+}
+
+
+/* Media Query for Mobile */
+
+@media screen and (max-width:500px) {
+    @keyframes fade {
+        0%{ opacity : 0;
+        }
+        100%{ opacity : 1;
+        }
+    }
+
+    body{
+        background: url(img/mobres.png) no-repeat center center fixed;
+        background-size: cover;
+        background-color: rgb(0, 0, 0);
+        animation: fade 2s ease 1 forwards;
+    }
+    
+    header {
+        display: flex;
+        justify-content: center;
+        height: 8vh;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    header ul li a {
+        text-decoration: none;
+        color: white;
+        font-family: 'Playfair Display SC', serif;
+        font-size: 12px;
+        position: relative;
+        top: 10px;
+    }
+    header ul li a:hover {
+        text-decoration: none;
+        color: white;
+        font-family: 'Playfair Display SC', serif;
+        font-size: 12px;
+        position: relative;
+        top: 10px;
+    }
+
+    .content {
+        height: 92vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .container {
+        color: white;
+        padding-bottom: 12vh;
+        padding-left: 12vw;
+        padding-right: 7vw;
+    }
+
+    .heading h2 {
+        padding-bottom: 2vh;
+        font-family: 'Playfair Display SC', serif;
+        font-size: 22px;
+    }
+
+    .heading h1 {
+        padding-bottom: 3vh;
+        font-family: 'Playfair Display SC', serif;
+        font-size: 14px;
+    }
+
+    .line3 {
+        font-size: 10px;
+    }
+    .line2 {
+        font-size: 10px;
+    }
+    .line1 {
+        font-size: 10px;
+    }
+
+    .link a {
+        text-decoration: none;
+        font-family: 'Playfair Display SC', serif;
+        color: whitesmoke;
+        font-size: 12px;
+    }
+    .link a:hover {
+        text-decoration: none;
+        font-family: 'Playfair Display SC', serif;
+        color: whitesmoke;
+        font-size: 12px;
+    }
+
+
+}
+
+
+
+

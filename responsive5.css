@@ -1,0 +1,237 @@
+/* Media Query for Tablets */
+
+@media screen and (max-width:850px){
+    @keyframes fade {
+        0%{ opacity : 0;
+        }
+        100%{ opacity : 1;
+        }
+    }
+
+    body{
+        background: url(img/tabres.png) no-repeat center center fixed;
+        background-size: cover;
+        background-color: rgb(0, 0, 0);
+        animation: fade 2s ease 1 forwards;
+    }
+
+    header ul li a {
+        text-decoration: none;
+        color: white;
+        font-family: 'Playfair Display SC', serif;
+        font-size: 15px;
+    }
+    header ul li a:hover {
+        text-decoration: none;
+        color: white;
+        font-family: 'Playfair Display SC', serif;
+        font-size: 15px;
+    }
+
+    .heading {
+        padding-bottom: 2vh;
+    }
+
+    .heading h2 {
+        padding-bottom: 2vh;
+        font-family: 'Playfair Display SC', serif;
+        font-size: 30px;
+    }
+
+    .line2 {
+        font-size: 14px;
+    }
+
+    .name p {
+        padding-bottom: 1vh;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 14px;
+    }
+
+    .name input {
+        height: 6vh;
+        width: 35vw;
+        background-color: rgba(54, 53, 53, 0.493);
+        border-radius: 10px;
+        border: none;
+        color: white;
+        padding-left: 1vw;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 12px;
+    }
+    .email p {
+        padding-bottom: 1vh;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 14px;
+    }
+
+    .email input {
+        height: 6vh;
+        width: 35vw;
+        background-color: rgba(54, 53, 53, 0.493);
+        border-radius: 10px;
+        border: none;
+        color: white;
+        padding-left: 1vw;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 12px;
+    }
+    .text p {
+        padding-bottom: 1vh;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 14px;
+    }
+
+    .text textarea {
+        height: 22vh;
+        width: 35vw;
+        background-color: rgba(54, 53, 53, 0.493);
+        border-radius: 10px;
+        border: none;
+        color: white;
+        padding-left: 1vw;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 12px;
+    }
+
+    button.btn {
+        position: relative;
+        left: 6vw;
+        top: 1vh;
+        width: 60px;
+        height: 30px;
+        font-family: 'Open Sans';
+        font-weight: bold;
+        color: rgb(138, 67, 67);
+        border: none;
+        border-radius: 10px;
+        background-color: rgba(54, 53, 53, 0.493);
+        font-size: 9px;
+    }
+}
+
+/* Media Query for Mobile */
+
+@media screen and (max-width:500px) {
+    @keyframes fade {
+        0%{ opacity : 0;
+        }
+        100%{ opacity : 1;
+        }
+    }
+
+    body{
+        background: url(img/mobres.png) no-repeat center center fixed;
+        background-size: cover;
+        background-color: rgb(0, 0, 0);
+        animation: fade 2s ease 1 forwards;
+    }
+    
+    header {
+        display: flex;
+        justify-content: center;
+        height: 8vh;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    header ul li a {
+        text-decoration: none;
+        color: white;
+        font-family: 'Playfair Display SC', serif;
+        font-size: 12px;
+        position: relative;
+        top: 10px;
+    }
+
+    .heading {
+        padding-bottom: 0vh;
+    }
+
+    .heading h2 {
+        padding-bottom: 2vh;
+        font-family: 'Playfair Display SC', serif;
+        font-size: 30px;
+    }
+
+    .para span {
+        font-family: 'Open Sans', sans-serif;
+    }
+
+    .line2 {
+        font-size: 12px;
+    }
+
+    .name p {
+        padding-bottom: 1vh;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 12px;
+    }
+
+    
+    .name input {
+        height: 5vh;
+        width: 280px;
+        background-color: rgba(54, 53, 53, 0.493);
+        border-radius: 10px;
+        border: none;
+        color: white;
+        padding-left: 1vw;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 10px;
+    }
+
+    .email p {
+        padding-bottom: 1vh;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 12px;
+    }
+
+    .email input {
+        height: 5vh;
+        width: 280px;
+        background-color: rgba(54, 53, 53, 0.493);
+        border-radius: 10px;
+        border: none;
+        color: white;
+        padding-left: 1vw;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 10px;
+    }
+
+    .text p {
+        padding-bottom: 1vh;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 12px;
+    }
+
+    .text textarea {
+        height: 140h;
+        width: 280px;
+        background-color: rgba(54, 53, 53, 0.493);
+        border-radius: 10px;
+        border: none;
+        color: white;
+        padding-left: 1vw;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 10px;
+    }
+
+    button.btn {
+        position: relative;
+        left: 6vw;
+        top: 1vh;
+        width: 60px;
+        height: 35px;
+        font-size: 10px;
+        font-family: 'Open Sans';
+        font-weight: bold;
+        color: rgb(138, 67, 67);
+        border: none;
+        border-radius: 10px;
+        background-color: rgba(54, 53, 53, 0.493);
+    }
+
+}
+
+
